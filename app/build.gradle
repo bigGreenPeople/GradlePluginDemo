@@ -4,6 +4,10 @@ plugins {
     id 'com.shark.demo'
 }
 
+uploaddemo{
+    name  'uploaddemo'
+}
+
 android {
     compileSdk 31
 
