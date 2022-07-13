@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "GradlePluginDemo",
+    "module": "sharkplugin",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "sharkplugin-unspecified.jar",
+          "url": "sharkplugin-unspecified.jar",
+          "size": 2274,
+          "sha512": "24193d7508dc913bffd0b4b567a6c092370b0f4eb7fb334d1d44feb1be7bc91c0b48ba2d7cd60009aebb267edac1197d908baedb4d9f1ab6e4d815a432fd61c1",
+          "sha256": "94e4f9775082db8839bc3a9ff44eb5796c9355a6ef6055a9ca70ff2d4b80ac5b",
+          "sha1": "f51878f184aab0dd1896e745b1389bdf79101dcf",
+          "md5": "06a205034f39e7678b799b1388a32689"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sharkplugin-unspecified.jar",
+          "url": "sharkplugin-unspecified.jar",
+          "size": 2274,
+          "sha512": "24193d7508dc913bffd0b4b567a6c092370b0f4eb7fb334d1d44feb1be7bc91c0b48ba2d7cd60009aebb267edac1197d908baedb4d9f1ab6e4d815a432fd61c1",
+          "sha256": "94e4f9775082db8839bc3a9ff44eb5796c9355a6ef6055a9ca70ff2d4b80ac5b",
+          "sha1": "f51878f184aab0dd1896e745b1389bdf79101dcf",
+          "md5": "06a205034f39e7678b799b1388a32689"
+        }
+      ]
+    }
+  ]
+}
