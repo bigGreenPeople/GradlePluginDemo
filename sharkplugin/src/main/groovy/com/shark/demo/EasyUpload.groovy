@@ -11,11 +11,18 @@ class EasyUpload implements Plugin<Project> {
     @Override
     void apply(Project project) {
         // 构建逻辑
-        println "Hello.fu jdie..........................................................................."
+        println "123Hello.fudsadadsadsadassdasadsadsda jdie..........................................................................."
         applyExtension(project)
-        println "Hello.fu jdasdie..........................................................................."
+        println "Hello12312.fu jdasdie..........................................................................."
 
     }
+
+    /**
+     * 编写
+     * @param project
+     */
+
+
 
     private static void applyExtension(Project project) {
         // 创建扩展，并添加到 ExtensionContainer

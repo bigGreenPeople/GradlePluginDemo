@@ -1,11 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'com.shark.demo'
 }
 
-uploaddemo{
-    name  'uploaddemo'
+if (ENABLED.toBoolean()) {
+    apply plugin: 'com.shark.demo'
+
+    uploaddemo {
+        name 'uploaddedsmo'
+    }
 }
 
 android {
