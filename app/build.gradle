@@ -8,6 +8,10 @@ if (ENABLED.toBoolean()) {
 
     upload {
         name 'uploaddedsmo'
+        user {
+            username = "fujie"
+            password = "123456"
+        }
     }
 }
 

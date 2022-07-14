@@ -22,12 +22,10 @@ class EasyUpload implements Plugin<Project> {
      * 编写
      * @param project
      */
-
-
-
     private static void applyExtension(Project project) {
         // 创建扩展，并添加到 ExtensionContainer
         project.extensions.create(UPLOAD_EXTENSION_NAME, Upload)
+
     }
 
     private static void applyMavenFeature(Project project) {
@@ -35,7 +33,7 @@ class EasyUpload implements Plugin<Project> {
             // 1. Upload extension
             Upload rootConfig = Upload.getConfig(project)
             println "Hello12312.fu jdasdie..........................................................................."
-            print(rootConfig.getName())
+            print(rootConfig)
             // 构建逻辑 ...
         }
     }
