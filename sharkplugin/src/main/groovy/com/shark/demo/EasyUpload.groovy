@@ -6,13 +6,14 @@ import org.gradle.api.Plugin
 class EasyUpload implements Plugin<Project> {
 
     //扩展
-    public static final String UPLOAD_EXTENSION_NAME = "uploaddemo"
+    public static final String UPLOAD_EXTENSION_NAME = "upload"
 
     @Override
     void apply(Project project) {
         // 构建逻辑
-        println "123Hello.fudsadadsadsadassdasadsadsda jdie..........................................................................."
+        println ".fudsadadsadsadassdasadsadsda jdie..........................................................................."
         applyExtension(project)
+        applyMavenFeature(project)
         println "Hello12312.fu jdasdie..........................................................................."
 
     }
@@ -29,11 +30,13 @@ class EasyUpload implements Plugin<Project> {
         project.extensions.create(UPLOAD_EXTENSION_NAME, Upload)
     }
 
-    private void applyMavenFeature(Project project) {
-//        project.afterEvaluate {
-//            // 1. Upload extension
-//            Upload rootConfig = Upload.getConfig(project.rootProject)
-//            // 构建逻辑 ...
-//        }
+    private static void applyMavenFeature(Project project) {
+        project.afterEvaluate {
+            // 1. Upload extension
+            Upload rootConfig = Upload.getConfig(project)
+            println "Hello12312.fu jdasdie..........................................................................."
+            print(rootConfig.getName())
+            // 构建逻辑 ...
+        }
     }
 }

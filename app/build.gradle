@@ -6,7 +6,7 @@ plugins {
 if (ENABLED.toBoolean()) {
     apply plugin: 'com.shark.demo'
 
-    uploaddemo {
+    upload {
         name 'uploaddedsmo'
     }
 }
